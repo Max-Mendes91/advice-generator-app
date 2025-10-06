@@ -18,7 +18,7 @@ A simple, responsive advice generator that fetches random advice from an externa
 
 ## Screenshot
 
-![Advice Generator Preview](./screenshot.png)
+![Advice Generator Preview](./preview.jpg)
 
 ## How It Works
 
