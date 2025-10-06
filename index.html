@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Advice generator app</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'blue-200': 'hsl(193, 38%, 86%)',
+            'green-300': 'hsl(150, 100%, 66%)',
+            'blue-600': 'hsl(217, 19%, 38%)',
+            'blue-900': 'hsl(217, 19%, 24%)',
+            'blue-950': 'hsl(218, 23%, 16%)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-blue-950 min-h-screen flex flex-col items-center justify-center p-4">
+
+  <div class="bg-blue-900 rounded-2xl p-6 md:p-12 max-w-[540px] w-full relative shadow-2xl">
+    <!-- Advice Number -->
+    <p class="text-green-300 text-xs md:text-sm tracking-[4px] uppercase text-center mb-6" id="advice-number">
+      Advice #117
+    </p>
+
+    <!-- Advice Text -->
+    <p class="text-blue-200 text-2xl md:text-[28px] font-extrabold text-center mb-6 leading-snug" id="advice-text">
+      "It is easy to sit up and take notice, what's difficult is getting up and taking action."
+    </p>
+
+    <!-- Pattern Divider -->
+    <div class="mb-8 flex justify-center">
+      <img src="./images/pattern-divider-mobile.svg" alt="pattern divider" class="md:hidden">
+      <img src="./images/pattern-divider-desktop.svg" alt="pattern divider" class="hidden md:block">
+    </div>
+
+    <!-- Dice Button -->
+    <button id="dice-btn"
+      class="absolute -bottom-8 left-1/2 -translate-x-1/2 bg-green-300 hover:shadow-[0_0_40px_rgba(82,255,168,0.6)] transition-shadow duration-300 w-16 h-16 rounded-full flex items-center justify-center cursor-pointer group">
+      <img src="./images/icon-dice.svg" alt="dice"
+        class="w-6 h-6 group-hover:rotate-180 transition-transform duration-300">
+    </button>
+  </div>
+
+  <div class="attribution mt-16 text-blue-600">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Max Mendes</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
