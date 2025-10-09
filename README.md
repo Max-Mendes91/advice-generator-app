@@ -2,6 +2,8 @@
 
 A simple, responsive advice generator that fetches random advice from an external API. Built as a Frontend Mentor challenge.
 
+[View Live Demo](https://max-mendes91.github.io/advice-generator-app/)
+
 ## Features
 
 - Fetches random advice from [Advice Slip API](https://api.adviceslip.com)
